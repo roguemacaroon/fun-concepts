@@ -1,10 +1,10 @@
+let dayInput = document.getElementById("day");
+let monthInput = document.getElementById("month");
+let yearInput = document.getElementById("year");
 let calculate = document.getElementById("calculateAge");
 let resultY = document.getElementById("resultY");
 let resultM = document.getElementById("resultM");
 let resultD = document.getElementById("resultD");
-const yearError = document.getElementById("yearError");
-const monthError = document.getElementById("monthError");
-const dayError = document.getElementById("dayError");
 
 calculate.addEventListener("click", calculateAge);
 

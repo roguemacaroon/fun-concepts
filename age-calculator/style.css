@@ -61,7 +61,10 @@ body {
   color: #333;
   cursor: pointer;
 }
-
+.input-contain {
+  display: flex;
+  flex-direction: column;
+}
 .error {
   font-style: italic;
   margin: 5px 0;
